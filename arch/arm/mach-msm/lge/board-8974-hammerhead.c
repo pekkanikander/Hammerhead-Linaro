@@ -49,7 +49,9 @@
 #include "../modem_notifier.h"
 #include "../lpm_resources.h"
 #include "../platsmp.h"
+#if defined(CONFIG_EARJACK_DEBUGGER)
 #include <mach/msm_serial_hs_lite.h>
+#endif
 #include <mach/board_lge.h>
 
 #if defined(CONFIG_LCD_KCAL)
