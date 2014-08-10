@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 3.4.101 Kernel Configuration
+# Linux/arm 3.4.102 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_ARM_HAS_SG_CHAIN=y
@@ -1164,6 +1164,7 @@ CONFIG_XPS=y
 CONFIG_BQL=y
 CONFIG_HAVE_BPF_JIT=y
 # CONFIG_BPF_JIT is not set
+# CONFIG_SOCKEV_NLMCAST is not set
 
 #
 # Network testing
@@ -3472,7 +3473,7 @@ CONFIG_CRYPTO_XTS=y
 # Hash modes
 #
 CONFIG_CRYPTO_HMAC=y
-CONFIG_CRYPTO_XCBC=y
+# CONFIG_CRYPTO_XCBC is not set
 # CONFIG_CRYPTO_VMAC is not set
 
 #
@@ -3528,10 +3529,11 @@ CONFIG_CRYPTO_LZ4HC=y
 #
 # Random Number Generation
 #
-CONFIG_CRYPTO_ANSI_CPRNG=y
+# CONFIG_CRYPTO_ANSI_CPRNG is not set
 # CONFIG_CRYPTO_USER_API_HASH is not set
 # CONFIG_CRYPTO_USER_API_SKCIPHER is not set
 CONFIG_CRYPTO_HW=y
+# CONFIG_FIPS_ENABLE is not set
 # CONFIG_CRYPTO_DEV_QCRYPTO is not set
 # CONFIG_CRYPTO_DEV_QCE is not set
 # CONFIG_CRYPTO_DEV_QCEDEV is not set
